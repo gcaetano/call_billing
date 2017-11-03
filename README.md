@@ -1,4 +1,4 @@
-# Talkdesk Challenge - Call Billing
+# Call Billing
 
 This project is a web-based system to provide service to:
 + Remove credits from a given account.
