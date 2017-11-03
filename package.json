@@ -4,13 +4,20 @@
   "description": "This is a web based project to charge inbound call ",
   "main": "app.js",
   "dependencies": {
+    "chai": "^4.1.0",
+    "chai-http": "^3.0.0",
     "hapi": "^16.1.0",
+    "joi": "^10.2.2",
     "log4js": "^1.1.1",
-    "mongodb": "^2.2.24"
+    "moment": "^2.18.0",
+    "mongodb": "^2.2.24",
+    "moniker": "latest",
+    "request": "latest",
+    "underscore": "^1.8.3"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "http://localhost:8000"
+    "test": "mocha tests"
   },
   "repository": {
     "type": "git",
@@ -21,7 +28,8 @@
     "nodejs",
     "mongodb",
     "call",
-    "billing"
+    "billing",
+    "mocha"
   ],
   "author": "Giuliano Caetano",
   "license": "ISC",

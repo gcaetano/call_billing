@@ -1,6 +1,6 @@
 # Talkdesk Challenge - Call Billing
 
-This project is a web-based system to provide a service to:
+This project is a web-based system to provide service to:
 + Remove credits from a given account.
 + List the charges for the given account.
 
@@ -14,20 +14,15 @@ This project is a web-based system to provide a service to:
 + [log4js](https://github.com/nomiddlename/log4js-node)
 + [mongodb](https://mongodb.github.io/node-mongodb-native/)
 + [hapi](https://hapijs.com/)
++ [moment](https://momentjs.com/)
++ [underscore](http://underscorejs.org/)
 
 ## Tests
 
-All requests will be done through POST and GET methods, I suggest to use the [postman](https://www.getpostman.com/)
+All requests will be done through POST methods, I suggest to use the [postman](https://www.getpostman.com/)
 
-+ http://localhost:8000/calls/charge/
-+ http://localhost:8000/calls/bill/
-
-Note: the parameters were not defined yet.
-
-## Logging
-The service uses log4js to write logs in files. A daily routing wii used to organize them. The logs can be find into ./logs/ directory
+To preform the tests, follow [these](./howto.md) steps. 
 
 ## Contributor
 
 Giuliano Ferreira Caetano
-

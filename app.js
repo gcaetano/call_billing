@@ -4,4 +4,3 @@
  */
 var server = require('./lib/server').Server;
 server.start();
-
