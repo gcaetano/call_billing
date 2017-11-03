@@ -1,0 +1,32 @@
+{
+  "name": "call_billing",
+  "version": "1.0.0",
+  "description": "This is a web based project to charge inbound call ",
+  "main": "app.js",
+  "dependencies": {
+    "hapi": "^16.1.0",
+    "log4js": "^1.1.1",
+    "mongodb": "^2.2.24"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "http://localhost:8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/talkdesk-challenges/challenge_giulianocaetano.git"
+  },
+  "keywords": [
+    "web",
+    "nodejs",
+    "mongodb",
+    "call",
+    "billing"
+  ],
+  "author": "Giuliano Caetano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/talkdesk-challenges/challenge_giulianocaetano/issues"
+  },
+  "homepage": "https://github.com/talkdesk-challenges/challenge_giulianocaetano#readme"
+}

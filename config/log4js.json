@@ -1,0 +1,10 @@
+{
+    "appenders": [
+        {
+            "category": "default",
+            "type": "dateFile",
+            "filename": "./logs/out.log",
+            "pattern": "_yyyyMMdd"
+        }
+    ]
+}
